@@ -1,6 +1,6 @@
 function Header() {
     return (
-        <div className="Header">
+        <div className="Header w-full">
             <nav className="bg-white border-gray-200 w-full md:p-6">
                 <div className="flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="" className="flex items-center">

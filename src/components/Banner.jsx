@@ -2,7 +2,7 @@ import shoes from '../static/img/banner-shoes.png'
 
 function Banner() {
     return (
-        <div className="w-full h-[900px] bg-gradient-to-r from-red-600 to-white md:flex space-x-0 space-y-4 md:space-y-0 md:space-x-10 p-8">
+        <div className="w-full h-[1000px] bg-gradient-to-r from-red-600 to-white md:flex space-x-0 space-y-4 md:space-y-0 md:space-x-10 p-8">
             <div className="w-full h-1/2 md:h-full">
                 <div className='w-full h-full md:p-28'>
                     <div className='w-full h-full md:p-16 flex-col space-y-5'>
