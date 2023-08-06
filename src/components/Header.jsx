@@ -1,16 +1,16 @@
 function Header() {
     return (
         <div className="Header">
-            <nav className="bg-white border-gray-200 w-full p-6">
+            <nav className="bg-white border-gray-200 w-full md:p-6">
                 <div className="flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="https://flowbite.com/" className="flex items-center">
+                <a href="" className="flex items-center">
                     {/* <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo" /> */}
                     <span className="self-center text-4xl md:text-7xl font-semibold whitespace-nowrap text-gray-800 font-serif"><span className="text-red-600">Snea</span>karz</span>
                 </a>
                 <div className="flex items-center md:order-2">
                     <button type="button" className="flex mr-3 text-sm bg-white rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
                     <span className="sr-only">Open user menu</span>
-                    <div className="w-8 md:w-16 h-8 md:h-16 rounded-full bg-white border-[8px] border-black"></div>
+                    <div className="w-8 md:w-16 h-8 md:h-16 rounded-full bg-white border-2 md:border-[8px] border-black"></div>
                     </button>
                     {/* <!-- Dropdown menu -->  */}
                     <div className="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
@@ -43,7 +43,7 @@ function Header() {
                 <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 md:mt-6" id="navbar-user">
                 <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
                     <li>
-                    <a href="#" className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-red-600 md:p-0 md:text-3xl font-semibold" aria-current="page font-serif">Home</a>
+                    <a href="#" className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-red-600 md:p-0 md:text-3xl font-serif font-semibold" aria-current="page">Home</a>
                     </li>
                     <li>
                     <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-600 md:p-0 md:text-3xl font-semibold font-serif">About</a>
