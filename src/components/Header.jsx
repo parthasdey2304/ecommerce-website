@@ -10,26 +10,26 @@ function Header() {
                 <div className="flex items-center md:order-2">
                     <button type="button" className="flex mr-3 text-sm bg-white rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
                     <span className="sr-only">Open user menu</span>
-                    <div className="w-8 md:w-16 h-8 md:h-16 rounded-full bg-white border-2 md:border-[8px] border-black"></div>
+                    <div className="w-8 md:w-16 h-8 md:h-16 rounded-full bg-white border-2 md:border-[4px] border-black"></div>
                     </button>
                     {/* <!-- Dropdown menu -->  */}
-                    <div className="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
+                    <div className="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow border" id="user-dropdown">
                     <div className="px-4 py-3">
-                        <span className="block text-2xl text-gray-900 dark:text-white font-serif">Partha Sarathi Dey</span>
-                        <span className="block text-2xl  text-gray-500 truncate dark:text-gray-400 font-serif">support@parthasarathidey.tech</span>
+                        <span className="block md:text-2xl text-gray-900  font-serif">Partha Sarathi Dey</span>
+                        <span className="block md:text-2xl  text-gray-500 truncate dark:text-gray-400 font-serif">support@parthasarathidey.tech</span>
                     </div>
                     <ul className="py-2 pr-10" aria-labelledby="user-menu-button">
                         <li>
-                        <a href="#" className="block px-4 py-2 text-2xl text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white font-serif">Dashboard</a>
+                        <a href="#" className="block px-4 py-2 md:text-2xl text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 font-serif">Dashboard</a>
                         </li>
                         <li>
-                        <a href="#" className="block px-4 py-2 text-2xl text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white font-serif">Settings</a>
+                        <a href="#" className="block px-4 py-2 md:text-2xl text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 font-serif">Settings</a>
                         </li>
                         <li>
-                        <a href="#" className="block px-4 py-2 text-2xl text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white font-serif">Earnings</a>
+                        <a href="#" className="block px-4 py-2 md:text-2xl text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 font-serif">Earnings</a>
                         </li>
                         <li>
-                        <a href="#" className="block px-4 py-2 text-2xl text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white font-serif">Sign out</a>
+                        <a href="#" className="block px-4 py-2 md:text-2xl text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 font-serif">Sign out</a>
                         </li>
                     </ul>
                     </div>
@@ -41,7 +41,7 @@ function Header() {
                 </button>
                 </div>
                 <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 md:mt-6" id="navbar-user">
-                <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
+                <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-500 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
                     <li>
                     <a href="#" className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-red-600 md:p-0 md:text-3xl font-serif font-semibold" aria-current="page">Home</a>
                     </li>
