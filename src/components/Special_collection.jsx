@@ -16,13 +16,13 @@ function Special_collection() {
 
                 <div className="w-full h-[870px] border bg-black flex space-x-5 p-5">
                     <div className="bg-green-600 w-full h-full">
-                        <div className="bg-blue-600 w-full h-[600px]"></div>
+                        <div className="bg-red-600 w-full h-[600px]"></div>
                     </div>
                     <div className="bg-green-600 w-full h-full">
-                        <div className="bg-blue-600 w-full h-[600px]"></div>
+                        <div className="bg-red-600 w-full h-[600px]"></div>
                     </div>
                     <div className="bg-green-600 w-full h-full">
-                        <div className="bg-blue-600 w-full h-[600px]"></div>
+                        <div className="bg-red-600 w-full h-[600px]"></div>
                     </div>
                 </div>
             </div>
