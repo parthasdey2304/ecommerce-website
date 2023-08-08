@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <div className="bg-white border-[10px] border-black w-full h-[400px] md:h-[1500px] flex-col">
+        <div className="w-full h-[400px] md:h-[1500px] flex-col">
             <div className="flex justify-between w-full h-[300px]">
                 <div className="p-24"><span className="self-center text-4xl md:text-7xl font-semibold whitespace-nowrap text-gray-800 font-serif"><span className="text-red-600">Snea</span>karz</span></div>
 

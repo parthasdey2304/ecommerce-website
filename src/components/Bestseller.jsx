@@ -1,3 +1,13 @@
+// importing all the images of the shoes over here
+import shoe1 from '../static/best_sellers/best_seller_1.png'
+import shoe2 from '../static/best_sellers/best_seller_2.png'
+import shoe3 from '../static/best_sellers/best_seller_3.png'
+import shoe4 from '../static/best_sellers/best_seller_4.png'
+import shoe5 from '../static/best_sellers/best_seller_5.png'
+import shoe6 from '../static/best_sellers/best_seller_6.png'
+import shoe7 from '../static/best_sellers/best_seller_7.png'
+import shoe8 from '../static/best_sellers/best_seller_8.png'
+
 function Bestseller() {
     return (
         <div className="flex-col space-y-10 p-10">
@@ -12,52 +22,116 @@ function Bestseller() {
 
             <div className="grid md:grid-cols-4 gap-5 md:gap-10  md:gap-y-24 md:pt-10">
                 <div className="bg-black w-full h-[400px] md:h-[1000px] flex-col ">
-                    <div className="w-full bg-blue-600 h-[250px] md:h-[700px] p-8">
-                        <img src="" alt="" className="bg-black w-full h-full" />
+                    <div className="w-full bg-gray-300 h-[250px] md:h-[700px] p-8">
+                        <div className='w-full h-[630px] p-10'>
+                            <img src={shoe1} alt="" className="w-full" />
+                        </div>
                     </div>
-                    <div className="w-full bg-red-600 h-[150px] md:h-[300px]"></div>
+                    <div className="w-full bg-red-600 h-[150px] md:h-[300px]">
+                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
+                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-5xl flex justify-center font-serif'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
+                        </div>
+                    </div>
                 </div>
                 <div className="bg-black w-full h-[400px] md:h-[1000px] flex-col ">
-                    <div className="w-full bg-blue-600 h-[250px] md:h-[700px] p-8">
-                        <img src="" alt="" className="bg-black w-full h-full" />
+                    <div className="w-full bg-gray-300 h-[250px] md:h-[700px] p-8">
+                        <div className='w-full h-[630px] p-10'>
+                            <img src={shoe2} alt="" className="w-full" />
+                        </div>
                     </div>
-                    <div className="w-full bg-red-600 h-[150px] md:h-[300px]"></div>
+                    <div className="w-full bg-red-600 h-[150px] md:h-[300px]">
+                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
+                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-5xl flex justify-center font-serif'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
+                        </div>
+                    </div>
                 </div>
                 <div className="bg-black w-full h-[400px] md:h-[1000px] flex-col ">
-                    <div className="w-full bg-blue-600 h-[250px] md:h-[700px] p-8">
-                        <img src="" alt="" className="bg-black w-full h-full" />
+                    <div className="w-full bg-gray-300 h-[250px] md:h-[700px] p-8">
+                        <div className='w-full h-[630px] p-10'>
+                            <img src={shoe3} alt="" className="w-full" />
+                        </div>
                     </div>
-                    <div className="w-full bg-red-600 h-[150px] md:h-[300px]"></div>
+                    <div className="w-full bg-red-600 h-[150px] md:h-[300px]">
+                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
+                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-5xl flex justify-center font-serif'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
+                        </div>
+                    </div>
                 </div>
                 <div className="bg-black w-full h-[400px] md:h-[1000px] flex-col ">
-                    <div className="w-full bg-blue-600 h-[250px] md:h-[700px] p-8">
-                        <img src="" alt="" className="bg-black w-full h-full" />
+                    <div className="w-full bg-gray-300 h-[250px] md:h-[700px] p-8">
+                        <div className='w-full h-[630px] p-10'>
+                            <img src={shoe4} alt="" className="w-full" />
+                        </div>
                     </div>
-                    <div className="w-full bg-red-600 h-[150px] md:h-[300px]"></div>
+                    <div className="w-full bg-red-600 h-[150px] md:h-[300px]">
+                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
+                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-5xl flex justify-center font-serif'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
+                        </div>
+                    </div>
                 </div>
                 <div className="bg-black w-full h-[400px] md:h-[1000px] flex-col ">
-                    <div className="w-full bg-blue-600 h-[250px] md:h-[700px] p-8">
-                        <img src="" alt="" className="bg-black w-full h-full" />
+                    <div className="w-full bg-gray-300 h-[250px] md:h-[700px] p-8">
+                        <div className='w-full h-[630px] p-10'>
+                            <img src={shoe5} alt="" className="w-full" />
+                        </div>
                     </div>
-                    <div className="w-full bg-red-600 h-[150px] md:h-[300px]"></div>
+                    <div className="w-full bg-red-600 h-[150px] md:h-[300px]">
+                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
+                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-5xl flex justify-center font-serif'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
+                        </div>
+                    </div>
                 </div>
                 <div className="bg-black w-full h-[400px] md:h-[1000px] flex-col ">
-                    <div className="w-full bg-blue-600 h-[250px] md:h-[700px] p-8">
-                        <img src="" alt="" className="bg-black w-full h-full" />
+                    <div className="w-full bg-gray-300 h-[250px] md:h-[700px] p-8">
+                        <div className='w-full h-[630px] p-10'>
+                            <img src={shoe6} alt="" className="w-full" />
+                        </div>
                     </div>
-                    <div className="w-full bg-red-600 h-[150px] md:h-[300px]"></div>
+                    <div className="w-full bg-red-600 h-[150px] md:h-[300px]">
+                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
+                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-5xl flex justify-center font-serif'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
+                        </div>
+                    </div>
                 </div>
                 <div className="bg-black w-full h-[400px] md:h-[1000px] flex-col ">
-                    <div className="w-full bg-blue-600 h-[250px] md:h-[700px] p-8">
-                        <img src="" alt="" className="bg-black w-full h-full" />
+                    <div className="w-full bg-gray-300 h-[250px] md:h-[700px] p-8">
+                        <div className='w-full h-[630px] p-10'>
+                            <img src={shoe7} alt="" className="w-full" />
+                        </div>
                     </div>
-                    <div className="w-full bg-red-600 h-[150px] md:h-[300px]"></div>
+                    <div className="w-full bg-red-600 h-[150px] md:h-[300px]">
+                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
+                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-5xl flex justify-center font-serif'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
+                        </div>
+                    </div>
                 </div>
                 <div className="bg-black w-full h-[400px] md:h-[1000px] flex-col ">
-                    <div className="w-full bg-blue-600 h-[250px] md:h-[700px] p-8">
-                        <img src="" alt="" className="bg-black w-full h-full" />
+                    <div className="w-full bg-gray-300 h-[250px] md:h-[700px] p-8">
+                        <div className='w-full h-[630px] p-10'>
+                            <img src={shoe8} alt="" className="w-full" />
+                        </div>
                     </div>
-                    <div className="w-full bg-red-600 h-[150px] md:h-[300px]"></div>
+                    <div className="w-full bg-red-600 h-[150px] md:h-[300px]">
+                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
+                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-5xl flex justify-center font-serif'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
