@@ -16,8 +16,8 @@ function Banner() {
                 </div>
             </div>
             <div className="w-full h-1/2 md:h-full flex justify-center">
-                <img src={shoes} alt="Banner Shoes" className='m-2 my-16 -rotate-45 -ml-10 z-40' />
-                <div className='bg-red-600 w-72 h-72 md:w-[800px] md:h-[800px] rounded-full -z-1 absolute shadow-2xl shadow-red-500 mt-16 md:mt-0 -skew-y-[20deg] p-2 md:p-6'>
+                <img src={shoes} alt="Banner Shoes" className='md:m-2 mt-32 md:my-16 -rotate-45 md:-ml-10 z-40 h-[250px] md:h-[90%]' />
+                <div className='bg-red-600 w-72 h-72 md:w-[800px] md:h-[800px] rounded-full -z-1 absolute shadow-2xl shadow-red-500 mt-20 md:mt-0 -skew-y-[20deg] p-2 md:p-6'>
                     <div className='bg-white w-full h-full rounded-full'></div>
                 </div>
             </div>

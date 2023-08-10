@@ -20,7 +20,7 @@ function Collections_carousel() {
                     <div className="w-full h-[400px] md:pl-32">
                         <img src={women} alt="Womens shoes" className='z-50 p-8 md:p-0 ' />
                     </div>
-                    <div className="flex justify-center p-10">
+                    <div className="flex justify-center p-10 -z-50">
                         <button className="border bg-white text-pink-400 font-semibold font-serif text-md md:text-4xl px-6 md:py-6 md:px-10">Explore All</button>
                     </div>
                 </div>
