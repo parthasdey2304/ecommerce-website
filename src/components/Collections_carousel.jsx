@@ -27,7 +27,7 @@ function Collections_carousel() {
                 <div className="h-full w-[400px] md:w-1/3 bg-red-400 md:p-10">
                     <div className="text-xl md:text-5xl items-center flex justify-center font-bold font-serif p-4 md:py-20 text-white">SPORTS COLLECTION</div>
                     <div className="w-full h-[400px] md:pl-24">
-                        <img src={sports} alt="Sports shoes" className='px-10' />
+                        <img src={sports} alt="Sports shoes" className='px-2 md:px-10' />
                     </div>
                     <div className="flex justify-center p-10">
                         <button className="border bg-white text-red-600 font-semibold font-serif text-md md:text-4xl px-6 md:py-6 md:px-10">Explore All</button>

@@ -23,113 +23,113 @@ function Bestseller() {
             <div className="grid md:grid-cols-4 gap-5 md:gap-10  md:gap-y-24 md:pt-10">
                 <div className="bg-black w-full h-[400px] md:h-[1000px] flex-col ">
                     <div className="w-full bg-gray-300 h-[250px] md:h-[700px] p-8">
-                        <div className='w-full h-[630px] p-10'>
-                            <img src={shoe1} alt="" className="w-full" />
+                        <div className='w-full h-[630px] p-14 hover:p-4 duration-300 hover:duration-300 pt-32'>
+                            <img src={shoe1} alt="" className="w-[600px] -rotate-[30deg]" />
                         </div>
                     </div>
                     <div className="w-full bg-red-600 h-[150px] md:h-[300px]">
-                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
-                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
-                            <div className='font-bold text-white text-5xl flex justify-center font-serif'>Running Sneaker Shoes</div>
-                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
+                        <div className='w-full h-full bg-black flex-col justify-center md:space-y-5 p-2 md:p-10'>
+                            <div className='text-white text-xl md:text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-2xl md:text-5xl flex justify-center font-serif py-4 md:py-0'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-xl md:text-4xl flex justify-center pt-2 md:pt-5 '>$190.85</div>
+                        </div>
+                    </div>
+                </div>
+                <div className="bg-black w-full h-[400px] md:h-[1000px] flex-col ">
+                    <div className="w-full bg-gray-300 h-[250px] md:h-[700px] p-8">
+                        <div className='w-full h-[630px]  p-14 hover:p-4 duration-300 hover:duration-300 pt-44 pl-20'>
+                            <img src={shoe2} alt="" className="w-[390px] h-[200px] -rotate-[30deg]" />
+                        </div>
+                    </div>
+                    <div className="w-full bg-red-600 h-[150px] md:h-[300px]">
+                        <div className='w-full h-full bg-black flex-col justify-center md:space-y-5 p-2 md:p-10'>
+                            <div className='text-white text-xl md:text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-2xl md:text-5xl flex justify-center font-serif py-4 md:py-0'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-xl md:text-4xl flex justify-center pt-2 md:pt-5 '>$190.85</div>
                         </div>
                     </div>
                 </div>
                 <div className="bg-black w-full h-[400px] md:h-[1000px] flex-col ">
                     <div className="w-full bg-gray-300 h-[250px] md:h-[700px] p-8">
                         <div className='w-full h-[630px] p-10'>
-                            <img src={shoe2} alt="" className="w-full" />
+                            <img src={shoe3} alt="" className="w-full  p-14 hover:p-4 duration-300 hover:duration-300" />
                         </div>
                     </div>
                     <div className="w-full bg-red-600 h-[150px] md:h-[300px]">
-                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
-                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
-                            <div className='font-bold text-white text-5xl flex justify-center font-serif'>Running Sneaker Shoes</div>
-                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
+                        <div className='w-full h-full bg-black flex-col justify-center md:space-y-5 p-2 md:p-10'>
+                            <div className='text-white text-xl md:text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-2xl md:text-5xl flex justify-center font-serif py-4 md:py-0'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-xl md:text-4xl flex justify-center pt-2 md:pt-5 '>$190.85</div>
                         </div>
                     </div>
                 </div>
                 <div className="bg-black w-full h-[400px] md:h-[1000px] flex-col ">
                     <div className="w-full bg-gray-300 h-[250px] md:h-[700px] p-8">
                         <div className='w-full h-[630px] p-10'>
-                            <img src={shoe3} alt="" className="w-full" />
+                            <img src={shoe4} alt="" className="w-full  p-14 hover:p-4 duration-300 hover:duration-300" />
                         </div>
                     </div>
                     <div className="w-full bg-red-600 h-[150px] md:h-[300px]">
-                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
-                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
-                            <div className='font-bold text-white text-5xl flex justify-center font-serif'>Running Sneaker Shoes</div>
-                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
+                        <div className='w-full h-full bg-black flex-col justify-center md:space-y-5 p-2 md:p-10'>
+                            <div className='text-white text-xl md:text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-2xl md:text-5xl flex justify-center font-serif py-4 md:py-0'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-xl md:text-4xl flex justify-center pt-2 md:pt-5 '>$190.85</div>
                         </div>
                     </div>
                 </div>
                 <div className="bg-black w-full h-[400px] md:h-[1000px] flex-col ">
                     <div className="w-full bg-gray-300 h-[250px] md:h-[700px] p-8">
                         <div className='w-full h-[630px] p-10'>
-                            <img src={shoe4} alt="" className="w-full" />
+                            <img src={shoe5} alt="" className="w-full  p-14 hover:p-4 duration-300 hover:duration-300" />
                         </div>
                     </div>
                     <div className="w-full bg-red-600 h-[150px] md:h-[300px]">
-                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
-                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
-                            <div className='font-bold text-white text-5xl flex justify-center font-serif'>Running Sneaker Shoes</div>
-                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
+                        <div className='w-full h-full bg-black flex-col justify-center md:space-y-5 p-2 md:p-10'>
+                            <div className='text-white text-xl md:text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-2xl md:text-5xl flex justify-center font-serif py-4 md:py-0'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-xl md:text-4xl flex justify-center pt-2 md:pt-5 '>$190.85</div>
                         </div>
                     </div>
                 </div>
                 <div className="bg-black w-full h-[400px] md:h-[1000px] flex-col ">
                     <div className="w-full bg-gray-300 h-[250px] md:h-[700px] p-8">
                         <div className='w-full h-[630px] p-10'>
-                            <img src={shoe5} alt="" className="w-full" />
+                            <img src={shoe6} alt="" className="w-full  p-14 hover:p-4 duration-300 hover:duration-300" />
                         </div>
                     </div>
                     <div className="w-full bg-red-600 h-[150px] md:h-[300px]">
-                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
-                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
-                            <div className='font-bold text-white text-5xl flex justify-center font-serif'>Running Sneaker Shoes</div>
-                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
+                        <div className='w-full h-full bg-black flex-col justify-center md:space-y-5 p-2 md:p-10'>
+                            <div className='text-white text-xl md:text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-2xl md:text-5xl flex justify-center font-serif py-4 md:py-0'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-xl md:text-4xl flex justify-center pt-2 md:pt-5 '>$190.85</div>
                         </div>
                     </div>
                 </div>
                 <div className="bg-black w-full h-[400px] md:h-[1000px] flex-col ">
                     <div className="w-full bg-gray-300 h-[250px] md:h-[700px] p-8">
                         <div className='w-full h-[630px] p-10'>
-                            <img src={shoe6} alt="" className="w-full" />
+                            <img src={shoe7} alt="" className="w-full  p-14 hover:p-4 duration-300 hover:duration-300" />
                         </div>
                     </div>
                     <div className="w-full bg-red-600 h-[150px] md:h-[300px]">
-                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
-                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
-                            <div className='font-bold text-white text-5xl flex justify-center font-serif'>Running Sneaker Shoes</div>
-                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
+                        <div className='w-full h-full bg-black flex-col justify-center md:space-y-5 p-2 md:p-10'>
+                            <div className='text-white text-xl md:text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-2xl md:text-5xl flex justify-center font-serif py-4 md:py-0'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-xl md:text-4xl flex justify-center pt-2 md:pt-5 '>$190.85</div>
                         </div>
                     </div>
                 </div>
                 <div className="bg-black w-full h-[400px] md:h-[1000px] flex-col ">
                     <div className="w-full bg-gray-300 h-[250px] md:h-[700px] p-8">
                         <div className='w-full h-[630px] p-10'>
-                            <img src={shoe7} alt="" className="w-full" />
+                            <img src={shoe8} alt="" className="w-full  p-14 hover:p-4 duration-300 hover:duration-300" />
                         </div>
                     </div>
                     <div className="w-full bg-red-600 h-[150px] md:h-[300px]">
-                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
-                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
-                            <div className='font-bold text-white text-5xl flex justify-center font-serif'>Running Sneaker Shoes</div>
-                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
-                        </div>
-                    </div>
-                </div>
-                <div className="bg-black w-full h-[400px] md:h-[1000px] flex-col ">
-                    <div className="w-full bg-gray-300 h-[250px] md:h-[700px] p-8">
-                        <div className='w-full h-[630px] p-10'>
-                            <img src={shoe8} alt="" className="w-full" />
-                        </div>
-                    </div>
-                    <div className="w-full bg-red-600 h-[150px] md:h-[300px]">
-                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
-                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
-                            <div className='font-bold text-white text-5xl flex justify-center font-serif'>Running Sneaker Shoes</div>
-                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
+                        <div className='w-full h-full bg-black flex-col justify-center md:space-y-5 p-2 md:p-10'>
+                            <div className='text-white text-xl md:text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-2xl md:text-5xl flex justify-center font-serif py-4 md:py-0'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-xl md:text-4xl flex justify-center pt-2 md:pt-5 '>$190.85</div>
                         </div>
                     </div>
                 </div>

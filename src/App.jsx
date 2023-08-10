@@ -11,11 +11,11 @@ function App() {
   return (
     <div className="App">
       {/* <Up_arrow /> */}
-      {/* <Header />
+      <Header />
       <Banner />
       <Collections_carousel />
       <Bestseller />
-      <Offer_tile /> */}
+      <Offer_tile />
       <Special_collection />
       <Footer />
     </div>

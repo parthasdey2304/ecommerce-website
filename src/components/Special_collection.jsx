@@ -6,10 +6,10 @@ import shoe4 from '../static/special_collection/special_collection_4.png'
 
 function Special_collection() {
     return (
-        <div className="bg-blue-600 w-full h-[400px] md:h-[1200px] p-4 md:py-20 md:px-52 flex space-x-5">
-            <div className="h-full w-[25%] bg-black flex-col space-y-28 p-4 md:px-16 md:py-28">
-                <div className="text-5xl font-serif font-semibold text-white flex items-center justify-center">New Trend Edition</div>
-                <div className="border-[10px] border-gray-400 w-[500px] h-[500px]">
+        <div className="w-full h-[400px] md:h-[1270px] p-4 md:py-20 md:px-52 md:flex space-x-5">
+            <div className="h-full md:w-[25%] bg-black flex-col space-y-28 p-4 md:px-16 md:py-28">
+                <div className="text-xl md:text-5xl font-serif font-semibold text-white flex items-center justify-center">New Trend Edition</div>
+                <div className="border-[10px] border-gray-400 h-[200px] w-[200px] md:w-[500px] md:h-[500px]">
                     <img src={shoe4} alt="shoes4 demo image nike special" className='w-[500px]' />
                 </div>
                 <div className="flex justify-center">
@@ -25,18 +25,39 @@ function Special_collection() {
                 <div className="w-full h-[870px] flex space-x-5 p-5">
                     <div className="bg-white w-full h-full">
                         <div className="bg-gray-200 w-full h-[600px] p-10">
-                            <img src={shoe1} alt="shoe image" className='w-full' />
+                            <img src={shoe1} alt="shoe image" className='w-full p-14 hover:p-4 duration-300 hover:duration-300' />
                         </div>
+                        <div className="w-full h-[150px] md:h-[300px]">
+                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
+                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-5xl flex justify-center font-serif'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
+                        </div>
+                    </div>
                     </div>
                     <div className="bg-white w-full h-full">
                         <div className="bg-gray-200 w-full h-[600px] p-10">
-                            <img src={shoe2} alt="shoe image" className='w-full' />
+                            <img src={shoe2} alt="shoe image" className='w-full p-14 hover:p-4 duration-300 hover:duration-300' />
                         </div>
+                        <div className="w-full h-[150px] md:h-[300px]">
+                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
+                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-5xl flex justify-center font-serif items-center'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
+                        </div>
+                    </div>
                     </div>
                     <div className="bg-white w-full h-full">
                         <div className="bg-gray-200 w-full h-[600px] p-20">
-                            <img src={shoe3} alt="shoe image" className='w-full rotate-[20deg]' />
+                            <img src={shoe3} alt="shoe image" className='w-full rotate-[20deg] p-14 hover:p-4 duration-300 hover:duration-300' />
                         </div>
+                        <div className="w-full h-[150px] md:h-[300px]">
+                        <div className='w-full h-full bg-black flex-col justify-center space-y-5 p-10'>
+                            <div className='text-white text-3xl w-full flex justify-center font-sans'>Men/Sports</div>
+                            <div className='font-bold text-white text-5xl flex justify-center font-serif'>Running Sneaker Shoes</div>
+                            <div className='font-semibold text-red-600 text-4xl flex justify-center pt-5 '>$190.85</div>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
